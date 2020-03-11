@@ -3,15 +3,16 @@
 <html lang="zh-CN">
     
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="l8higher">
-    <title>关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新） - l8higher</title>
+    <title>关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新） | l8higher</title>
     <meta name="author" content="李小八">
     
     
+        <link rel="icon" href="http://yoursite.com/assets/images/favicon.ico">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"李小八","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"]},"articleBody":"系统：macOS       工具：iTerm2\n笔者简单记录总结搭建博客中的错误，有些错误忘记记录了，一下为记录的。希望和大家一起交流。\n\n在使用npm install -g hexo-cli来安装hexo框架时，出现如下错误\n  简单解读，权限不够无法写入，解决办法就是以管理员身份运行，如下\n  sudo npm install -g hexo-cli出现如下便成功，\n\n继续往下，在初始化过程中又遇到了问题（😢），如下：原因：hexo初始化必须在一个空目录下，但是并没有，而是直接在家目录下了，所以fatal:~ not empty.....。\n如何解决也很简单，首先通过cd命令cd blog(blog这个文件夹在本地创建的)，然后再进行初始化hexo init。\n\n在进行hexo s时出现Usage: hexo &lt;command&gt;如下图解决办法：cd blog再运行hexo s即可。\n\n\n\n今早给博客换了个主题，中间又犯了一个小错误。报错WARN  No layout: index.html解决办法：把主题的文件夹移动到themes文件夹下即可解决。\n\n","dateCreated":"2020-02-28T12:50:03+08:00","dateModified":"2020-02-28T13:02:08+08:00","datePublished":"2020-02-28T12:50:03+08:00","description":"","headline":"关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新）","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"},"publisher":{"@type":"Organization","name":"李小八","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"]},"url":"http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"}</script>
+    
     <meta name="description" content="系统：macOS       工具：iTerm2 笔者简单记录总结搭建博客中的错误，有些错误忘记记录了，一下为记录的。希望和大家一起交流。  在使用npm install -g hexo-cli来安装hexo框架时，出现如下错误   简单解读，权限不够无法写入，解决办法就是以管理员身份运行，如下   sudo npm install -g hexo-cli出现如下便成功，  继续往下，在初始化过程">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新）">
@@ -29,34 +30,25 @@
 <meta property="article:author" content="李小八">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://yoursite.com/image/1/1.jpg">
+<meta name="twitter:creator" content="@https:&#x2F;&#x2F;twitter.com&#x2F;quericy">
     
     
         
     
+    
+        <meta property="og:image" content="http://yoursite.com/assets/images/quericy_avatar.jpeg"/>
     
     
     
     
     <!--STYLES-->
     
-<link rel="stylesheet" href="/assets/css/all.css">
-
-    
-<link rel="stylesheet" href="/assets/css/jquery.fancybox.css">
-
-    
-<link rel="stylesheet" href="/assets/css/thumbs.css">
-
-    
-<link rel="stylesheet" href="/assets/css/tranquilpeak.css">
+<link rel="stylesheet" href="/assets/css/style-jcjdwauhtfcmq8zz710rzbjcv9wwo99ldgvmwvpkse1d7iqim8bbmngcctal.min.css">
 
     <!--STYLES END-->
     
-
     
-
-    
-        
+    <!--Disqus-->
     
 </head>
 
@@ -66,26 +58,23 @@
 
 
     
+        
+            
+        
+    
 
-<header id="header" data-behavior="4">
+<header id="header" data-behavior="3">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
-    <div class="header-title">
-        <a
-            class="header-title-link"
-            href="/%20"
-            aria-label=""
-        >
-            l8higher
-        </a>
-    </div>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/%20">l8higher</a>
+    </h1>
     
         
-            <a
-                class="header-right-picture "
-                href="#about"
-                aria-label="Abre el enlace: /#about"
-            >
+            <a  class="header-right-picture "
+                href="#about">
         
+        
+            <img class="header-picture" src="/assets/images/quericy_avatar.jpeg"/>
         
         </a>
     
@@ -94,263 +83,172 @@
             <!-- Define author's picture -->
 
 
-<nav id="sidebar" data-behavior="4">
-    <div class="sidebar-container">
+
         
+    
+
+<nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                    <img class="sidebar-profile-picture" src="/assets/images/quericy_avatar.jpeg"/>
+            </a>
+            <span class="sidebar-profile-name">李小八</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
         
-            <ul class="sidebar-buttons">
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/"
-                            
-                            rel="noopener"
-                            title="Inicio"
-                        >
-                        <i class="sidebar-button-icon fa fa-home" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Inicio</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/all-categories"
-                            
-                            rel="noopener"
-                            title="Categorías"
-                        >
-                        <i class="sidebar-button-icon fa fa-bookmark" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Categorías</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/all-tags"
-                            
-                            rel="noopener"
-                            title="Etiquetas"
-                        >
-                        <i class="sidebar-button-icon fa fa-tags" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Etiquetas</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/all-archives"
-                            
-                            rel="noopener"
-                            title="Archivos"
-                        >
-                        <i class="sidebar-button-icon fa fa-archive" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Archivos</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link open-algolia-search"
-                            href="#search"
-                            
-                            rel="noopener"
-                            title="Buscar"
-                        >
-                        <i class="sidebar-button-icon fa fa-search" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Buscar</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="#about"
-                            
-                            rel="noopener"
-                            title="Acerca de"
-                        >
-                        <i class="sidebar-button-icon fa fa-question" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Acerca de</span>
-                    </a>
-            </li>
-            
-        </ul>
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/%20"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
         
-            <ul class="sidebar-buttons">
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="https://github.com/"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="GitHub"
-                        >
-                        <i class="sidebar-button-icon fab fa-github" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">GitHub</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="http://stackoverflow.com/users"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="Stack Overflow"
-                        >
-                        <i class="sidebar-button-icon fab fa-stack-overflow" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Stack Overflow</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="https://twitter.com/"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="Twitter"
-                        >
-                        <i class="sidebar-button-icon fab fa-twitter" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Twitter</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="https://facebook.com/"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="Facebook"
-                        >
-                        <i class="sidebar-button-icon fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Facebook</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="https://plus.google.com/"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="Google Plus"
-                        >
-                        <i class="sidebar-button-icon fab fa-google-plus" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Google Plus</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="https://www.linkedin.com/profile/"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="LinkedIn"
-                        >
-                        <i class="sidebar-button-icon fab fa-linkedin" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">LinkedIn</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/mailto"
-                            
-                            rel="noopener"
-                            title="Correo"
-                        >
-                        <i class="sidebar-button-icon fa fa-envelope" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Correo</span>
-                    </a>
-            </li>
-            
-        </ul>
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/categories/"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categories</span>
+                </a>
+        </li>
         
-            <ul class="sidebar-buttons">
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/atom.xml"
-                            
-                            rel="noopener"
-                            title="RSS"
-                        >
-                        <i class="sidebar-button-icon fa fa-rss" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">RSS</span>
-                    </a>
-            </li>
-            
-        </ul>
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/tags/"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                    <span class="sidebar-button-desc">Tags</span>
+                </a>
+        </li>
         
-    </div>
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/archives/"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Archives</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link st-search-show-outputs"
+                         href="/search/"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">Search</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/about/"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">About</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/quericy" 
+                    rel="external nofollow"  target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://twitter.com/quericy" 
+                    rel="external nofollow"  target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+                    <span class="sidebar-button-desc">Twitter</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
 </nav>
 
             
-            <div id="main" data-behavior="4"
+            <div id="main" data-behavior="3" style="background-color: rgba(255, 255, 255, 0.85);"
                  class="
                         hasCoverMetaIn
                         ">
                 
-<article class="post">
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
     
     
         <div class="post-header main-content-wrap text-left">
     
-        <h1 class="post-title">
+        <h1 class="post-title" itemprop="headline">
             关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新）
         </h1>
     
-    
-        <div class="post-meta">
-    <time datetime="2020-02-28T12:50:03+08:00">
+    <div class="post-meta">
+    <time itemprop="datePublished" content="Fri Feb 28 2020 12:50:03 GMT+0800">
 	
-		    28 2月 2020
+		    2月 28, 2020
     	
-    </time>
+    </time>    
+    
+    
+        &nbsp;|&nbsp; 更新于
+        <time itemprop="dateUpdated" content="Fri Feb 28 2020 13:02:08 GMT+0800">
+        
+		    2月 28, 2020
+    	
+        </time>
     
 </div>
-
-    
 </div>
-
     
-    <div class="post-content markdown">
+    <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
             <p>系统：macOS       工具：iTerm2</p>
 <p>笔者简单记录总结搭建博客中的错误，有些错误忘记记录了，一下为记录的。希望和大家一起交流。</p>
@@ -370,108 +268,71 @@
 </ul>
 
             
-
-
+            
+            <blockquote>
+            <p>如未特殊注明，本站文章均为原创</p>
+            <p>转载请注明：转载自<a href="http://yoursite.com" >quericy</a>的博客(http://yoursite.com)</p>
+            <p>本文链接地址: <a href="http://yoursite.com/2020/02/28/关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新）/">关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新）</a></p>
+            </blockquote>
+            
         </div>
     </div>
     <div id="post-footer" class="post-footer main-content-wrap">
         
-        
-            <div class="post-actions-wrap">
+        <div class="post-actions-wrap">
     <nav>
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    
-                <a
-                    class="post-action-btn btn btn--default tooltip--top"
-                    href="/2020/02/29/homebrew%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"
-                    data-tooltip="homebrew的安装和一些常用指令"
-                    aria-label="ANTERIOR: homebrew的安装和一些常用指令"
-                >
-                    
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>
-                        <span class="hide-xs hide-sm text-small icon-ml">ANTERIOR</span>
-                    </a>
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2020/02/29/homebrew%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"  data-tooltip="homebrew的安装和一些常用指令">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
             </li>
             <li class="post-action">
                 
-                    <a
-                        class="post-action-btn btn btn--disabled"
-                        aria-hidden="true"
-                    >
-                        
-                        <span class="hide-xs hide-sm text-small icon-mr">SIGUIENTE</span>
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                    </a>
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
             </li>
         </ul>
     </nav>
     <ul class="post-actions post-action-share">
         <li class="post-action hide-lg hide-md hide-sm">
-            <a
-                class="post-action-btn btn btn--default btn-open-shareoptions"
-                href="#btn-open-shareoptions"
-                aria-label="Diesen Beitrag teilen"
-            >
-                <i class="fa fa-share-alt" aria-hidden="true"></i>
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-twitter"></i>
             </a>
         </li>
         
-            
-            
-            <li class="post-action hide-xs">
-                <a
-                    class="post-action-btn btn btn--default"
-                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                    title="Compartir en Facebook"
-                    aria-label="Compartir en Facebook"
-                >
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                </a>
-            </li>
-        
-            
-            
-            <li class="post-action hide-xs">
-                <a
-                    class="post-action-btn btn btn--default"
-                    target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                    title="Compartir en Twitter"
-                    aria-label="Compartir en Twitter"
-                >
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                </a>
-            </li>
-        
-            
-            
-            <li class="post-action hide-xs">
-                <a
-                    class="post-action-btn btn btn--default"
-                    target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                    title="Compartir en Google+"
-                    aria-label="Compartir en Google+"
-                >
-                    <i class="fab fa-google-plus" aria-hidden="true"></i>
-                </a>
-            </li>
-        
-        
-            
-        
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#" aria-label="Nach oben">
+                <a class="post-action-btn btn btn--default" href="#">
             
-                <i class="fa fa-list" aria-hidden="true"></i>
+                <i class="fa fa-list"></i>
             </a>
         </li>
     </ul>
 </div>
 
 
-        
         
             
         
@@ -482,101 +343,61 @@
 
                 <footer id="footer" class="main-content-wrap">
     <span class="copyrights">
-        Copyrights &copy; 2020 李小八. All Rights Reserved.
+        Copyrights &copy; 2020 <a href="http://yoursite.com" >李小八</a>. All Rights Reserved.
     </span>
 </footer>
 
             </div>
             
-                <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
                     <div class="post-actions-wrap">
     <nav>
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    
-                <a
-                    class="post-action-btn btn btn--default tooltip--top"
-                    href="/2020/02/29/homebrew%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"
-                    data-tooltip="homebrew的安装和一些常用指令"
-                    aria-label="ANTERIOR: homebrew的安装和一些常用指令"
-                >
-                    
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>
-                        <span class="hide-xs hide-sm text-small icon-ml">ANTERIOR</span>
-                    </a>
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2020/02/29/homebrew%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"  data-tooltip="homebrew的安装和一些常用指令">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
             </li>
             <li class="post-action">
                 
-                    <a
-                        class="post-action-btn btn btn--disabled"
-                        aria-hidden="true"
-                    >
-                        
-                        <span class="hide-xs hide-sm text-small icon-mr">SIGUIENTE</span>
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                    </a>
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
             </li>
         </ul>
     </nav>
     <ul class="post-actions post-action-share">
         <li class="post-action hide-lg hide-md hide-sm">
-            <a
-                class="post-action-btn btn btn--default btn-open-shareoptions"
-                href="#btn-open-shareoptions"
-                aria-label="Diesen Beitrag teilen"
-            >
-                <i class="fa fa-share-alt" aria-hidden="true"></i>
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-twitter"></i>
             </a>
         </li>
         
-            
-            
-            <li class="post-action hide-xs">
-                <a
-                    class="post-action-btn btn btn--default"
-                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                    title="Compartir en Facebook"
-                    aria-label="Compartir en Facebook"
-                >
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                </a>
-            </li>
-        
-            
-            
-            <li class="post-action hide-xs">
-                <a
-                    class="post-action-btn btn btn--default"
-                    target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                    title="Compartir en Twitter"
-                    aria-label="Compartir en Twitter"
-                >
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                </a>
-            </li>
-        
-            
-            
-            <li class="post-action hide-xs">
-                <a
-                    class="post-action-btn btn btn--default"
-                    target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                    title="Compartir en Google+"
-                    aria-label="Compartir en Google+"
-                >
-                    <i class="fab fa-google-plus" aria-hidden="true"></i>
-                </a>
-            </li>
-        
-        
-            
-        
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#" aria-label="Nach oben">
+                <a class="post-action-btn btn btn--default" href="#">
             
-                <i class="fa fa-list" aria-hidden="true"></i>
+                <i class="fa fa-list"></i>
             </a>
         </li>
     </ul>
@@ -584,105 +405,81 @@
 
 
                 </div>
-                
-    <div id="share-options-bar" class="share-options-bar" data-behavior="4">
-        <i id="btn-close-shareoptions" class="fa fa-times"></i>
-        <ul class="share-options">
-            
-                
-                
-                <li class="share-option">
-                    <a
-                        class="share-option-btn"
-                        target="new"
-                        href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                        aria-label="Compartir en Facebook"
-                    >
-                        <i class="fab fa-facebook" aria-hidden="true"></i><span>Compartir en Facebook</span>
-                    </a>
-                </li>
-            
-                
-                
-                <li class="share-option">
-                    <a
-                        class="share-option-btn"
-                        target="new"
-                        href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                        aria-label="Compartir en Twitter"
-                    >
-                        <i class="fab fa-twitter" aria-hidden="true"></i><span>Compartir en Twitter</span>
-                    </a>
-                </li>
-            
-                
-                
-                <li class="share-option">
-                    <a
-                        class="share-option-btn"
-                        target="new"
-                        href="https://plus.google.com/share?url=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/"
-                        aria-label="Compartir en Google+"
-                    >
-                        <i class="fab fa-google-plus" aria-hidden="true"></i><span>Compartir en Google+</span>
-                    </a>
-                </li>
-            
-        </ul>
-    </div>
-
-
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
             
         </div>
         
 
+
+    
+        
+    
 
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
-            <i class="fa fa-times"></i>
+            <i class="fa fa-remove"></i>
         </div>
         
+        <a href="http://yoursite.com">
+            <img id="about-card-picture" src="/assets/images/quericy_avatar.jpeg"/>
+        </a>
+        
+        <a href="http://yoursite.com">
             <h4 id="about-card-name">李小八</h4>
+        </a>
         
-            <div id="about-card-bio"><p>author.bio</p>
-</div>
+            <h5 id="about-card-bio"><p>author.bio</p>
+</h5>
         
         
-            <div id="about-card-job">
+            <h5 id="about-card-job">
                 <i class="fa fa-briefcase"></i>
                 <br/>
                 <p>author.job</p>
 
-            </div>
+            </h5>
         
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                Fujian China
+            </h5>
         
     </div>
 </div>
 
         
-        
-<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
-        <!--SCRIPTS-->
+<div id="cover" style="background-image:url('https://dn-quericyblog.qbox.me/hexo/blog-background-image.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
 
-<script src="/assets/js/jquery.js"></script>
-
-
-<script src="/assets/js/jquery.fancybox.js"></script>
-
-
-<script src="/assets/js/thumbs.js"></script>
-
-
-<script src="/assets/js/tranquilpeak.js"></script>
+<script src="/assets/js/scrip-ltg5malubumv6xuadypwukdvqm7c7g11urk78obrhejlwywifencfh37a7wi.min.js"></script>
 
 <!--SCRIPTS END-->
-
 
     
 
 
 
-
-    </body>
 </html>
