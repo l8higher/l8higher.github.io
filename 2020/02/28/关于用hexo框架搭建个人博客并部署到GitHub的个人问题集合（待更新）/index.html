@@ -24,6 +24,9 @@
 
   
 
+<link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
+<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="/assets/js/Meting.min.js" class="meting-script-marker"></script>
 </head>
 
 </html>
@@ -60,7 +63,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">276字</span>
+            <span class="post-count">711字</span>
         </span>
     </span>
 
@@ -69,7 +72,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1分钟</span>
+            <span class="post-count">3分钟</span>
         </span>
     </span>
 </div>
@@ -94,7 +97,10 @@
       
 
       
-      <p>系统：macOS       工具：iTerm2</p>
+      <div id="aplayer-wfFLXVrv" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="1394672719" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
+    ></div>
+<p>系统：macOS       工具：iTerm2</p>
 <p>笔者简单记录总结搭建博客中的错误，有些错误忘记记录了，一下为记录的。希望和大家一起交流。</p>
 <ul>
 <li><p>在使用<code>npm install -g hexo-cli</code>来安装hexo框架时，出现如下错误<br><img src="/image/1/1.jpg" alt=""></p>
@@ -108,7 +114,12 @@
 </li>
 </ul>
 <ul>
-<li>今早给博客换了个主题，中间又犯了一个小错误。报错<code>WARN  No layout: index.html</code><br><img src="/image/1/5.jpg" alt=""><br>解决办法：把主题的文件夹移动到themes文件夹下即可解决。</li>
+<li><p>今早给博客换了个主题，中间又犯了一个小错误。报错<code>WARN  No layout: index.html</code><br><img src="/image/1/5.jpg" alt=""><br>解决办法：把主题的文件夹移动到themes文件夹下即可解决。</p>
+</li>
+<li><p>在给个人博客个性化的时候也遇到了太多的问题，比如刚开始使用tranquilpeak主题，这个主题相对冷门，优化解决上面也有问题，所以遇到了大坑，个人能力有限怎么着也解决不了，只能作罢。于是改换ayer主题，其中没有遇到什么大问题，小问题都谷歌解决，但是中间发现了一个问题，自己的终端代理又出现了问题以及npm也一直报错，怎么着都解决不了，试了很多方法，把node卸载了一遍又一遍（<a href="https://www.jianshu.com/p/3e0206dd23ac" target="_blank" rel="noopener">Mac完全卸载node.js</a>）各种谷歌，最后貌似解决了，说说问题和“解决方法”。（也不确定）</p>
+<figure class="highlight gyp"><figcaption><span>ERR! configure error</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">gyp ERR! stack Error: tunneling socket could <span class="keyword">not</span> be established, cause=Parse Error: Expected HTTP/</span><br><span class="line">gyp ERR! stack     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/tunnel-agent/index.js:<span class="number">177</span>:<span class="number">17</span>)</span><br><span class="line">gyp ERR! stack     at Object.onceWrapper (events.js:<span class="number">423</span>:<span class="number">26</span>)</span><br><span class="line">gyp ERR! stack     at ClientRequest.emit (events.js:<span class="number">316</span>:<span class="number">20</span>)</span><br><span class="line">gyp ERR! stack     at Socket.socketOnData (_http_client.js:<span class="number">486</span>:<span class="number">9</span>)</span><br><span class="line">gyp ERR! stack     at Socket.emit (events.js:<span class="number">316</span>:<span class="number">20</span>)</span><br><span class="line">gyp ERR! stack     at addChunk (_stream_readable.js:<span class="number">297</span>:<span class="number">12</span>)</span><br><span class="line">gyp ERR! stack     at readableAddChunk (_stream_readable.js:<span class="number">273</span>:<span class="number">9</span>)</span><br><span class="line">gyp ERR! stack     at Socket.Readable.push (_stream_readable.js:<span class="number">214</span>:<span class="number">10</span>)</span><br><span class="line">gyp ERR! stack     at TCP.onStreamRead (internal/stream_base_commons.js:<span class="number">186</span>:<span class="number">23</span>)</span><br><span class="line">gyp ERR! System Darwin <span class="number">19.4</span><span class="number">.0</span></span><br><span class="line">gyp ERR! command <span class="string">"/usr/local/Cellar/node/13.10.1/bin/node"</span> <span class="string">"/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js"</span> <span class="string">"rebuild"</span></span><br><span class="line">gyp ERR! cwd /Users/lishihao/blog/node_modules/hexo-tag-aplayer/node_modules/fsevents</span><br><span class="line">gyp ERR! node -v v13<span class="number">.10</span><span class="number">.1</span></span><br><span class="line">gyp ERR! node-gyp -v v5<span class="number">.0</span><span class="number">.7</span></span><br><span class="line">gyp ERR! <span class="keyword">not</span> ok</span><br></pre></td></tr></table></figure>
+<p>我感觉可能和我的代理有点问题，但是代理的问题也还没解决。以后的文章再给出解决办法吧。先说说这个的解决办法。<br>第一步 <code>npm install --ignore-scripts</code><br>第二步 <code>npm install</code><br>还没试过淘宝镜像，等之后试试吧。</p>
+</li>
 </ul>
       
       <!-- reward -->
@@ -578,23 +589,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
 
 
-    
-    <div id="music">
-    
-    
-    
-    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="86"
-        src="//music.163.com/outchain/player?type=2&id=1394672718&auto=1&height=66"></iframe>
-</div>
-
-<style>
-    #music {
-        position: fixed;
-        right: 15px;
-        bottom: 0;
-        z-index: 998;
-    }
-</style>
     
   </div>
 </body>
