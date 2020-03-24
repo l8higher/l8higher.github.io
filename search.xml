@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>About Me</title>
+    <url>/2020/03/24/About%20Me/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><img src="http://q6fve88lp.bkt.clouddn.com/111.JPG" style="zoom:50%" />
+
+<p>江苏南通海门人，江苏常州cczu本科学习中。<br>业余Popping Dancer，热爱hiphop。<br>R&amp;B狂热喜爱，Funk也可，hiphop最后。<br>喜爱穿搭，随性自由。<br>Java后端学习中（其实我对前端更有兴趣，且更有灵性，渐学渐变）。<br>建此站，纯粹记录。<br>望广交网上邻居嘿嘿嘿~<br><img src="http://q6fve88lp.bkt.clouddn.com/IMG_5037.JPG" alt="嘻嘻嘻"></p>]]></content>
+      <tags>
+        <tag>我</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>homebrew的安装和一些常用指令</title>
     <url>/2020/03/23/homebrew%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div id="aplayer-bDUSqbRq" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div id="aplayer-UhXyfcRN" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1401880096" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
     ></div>
 <p>系统：macOS                    工具：iterm2</p>
@@ -35,7 +45,7 @@
   <entry>
     <title>markdown语法学习笔录</title>
     <url>/2020/03/23/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E5%BD%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div id="aplayer-UUWwfaTp" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div id="aplayer-ZkmwTSMs" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="31654343" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
     ></div>
 
@@ -86,7 +96,8 @@
 </blockquote>
 </li>
 </ul>
-<p><img src="http://q6fve88lp.bkt.clouddn.com/lesia-and-serhii-artymovych-CHgWwvFsEDk-unsplash.jpg" alt="嘻嘻嘻"></p>
+<img src="http://q6fve88lp.bkt.clouddn.com/lesia-and-serhii-artymovych-CHgWwvFsEDk-unsplash.jpg" style="zoom:50%" />
+
 <blockquote>
 <p><strong>图片alt为图片下方的文字，即为对图片的解释</strong><br><strong>如果是在博客中插入图片那么关于关于图片的路径，有两种选择，一是存放到本地，二位网上图床（推荐免费的的七牛云的对象存储）</strong><br><strong>网上图床没什么好说的，七牛云有个复制外链的操作，点击粘贴即可。存放到本地的话，那就是把你本地路径一步一步写上去即可，就是别删了。</strong>  </p>
 </blockquote>
@@ -140,7 +151,7 @@
   <entry>
     <title>关于用hexo框架搭建个人博客并部署到GitHub的个人问题集合（待更新）</title>
     <url>/2020/02/28/%E5%85%B3%E4%BA%8E%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88%EF%BC%88%E5%BE%85%E6%9B%B4%E6%96%B0%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div id="aplayer-JttdibRA" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div id="aplayer-rWcfbHzM" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1394672719" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
     ></div>
 <p>系统：macOS       工具：iTerm2</p>
