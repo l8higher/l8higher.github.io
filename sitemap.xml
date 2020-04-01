@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/03/23/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E5%BD%95/</loc>
+    
+    <lastmod>2020-04-01T04:12:04.411Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/03/24/About%20Me/</loc>
     
     <lastmod>2020-04-01T04:04:46.382Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://yoursite.com/2020/03/23/homebrew%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
     
     <lastmod>2020-04-01T04:03:37.256Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/03/23/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E5%BD%95/</loc>
-    
-    <lastmod>2020-04-01T04:02:46.287Z</lastmod>
     
   </url>
   
