@@ -53,7 +53,7 @@
 </blockquote>
 </li>
 </ul>
-<p><img src="http://q6fve88lp.bkt.clouddn.com/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%884.29.19.png" alt="标题演示"></p>
+<p><img src="http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%884.29.19.png" alt="标题演示"></p>
 <h3 id="2-粗体、斜体、斜体加粗、加删除线"><a href="#2-粗体、斜体、斜体加粗、加删除线" class="headerlink" title="2. 粗体、斜体、斜体加粗、加删除线"></a>2. 粗体、斜体、斜体加粗、加删除线</h3><ul>
 <li>示例 <code>**粗体**、*斜体*、***斜体加粗***、~~加删除线~~</code><blockquote>
 <p>以下为实际效果  </p>
@@ -78,7 +78,7 @@
 <p><strong>需要注意：<code>.</code>后面有一个空格</strong>  </p>
 </blockquote>
 <h2 id="渐入佳境"><a href="#渐入佳境" class="headerlink" title="渐入佳境"></a>渐入佳境</h2><h3 id="7-代码高亮"><a href="#7-代码高亮" class="headerlink" title="7. 代码高亮"></a>7. 代码高亮</h3><ul>
-<li><p>示例：<img src="http://q6fve88lp.bkt.clouddn.com/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%883.26.04.png" alt="代码高亮"></p>
+<li><p>示例：<img src="http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%884.29.19.png" alt="代码高亮"></p>
 <blockquote>
 <p>实际效果如下<br>&emsp;<code>代码高亮</code></p>
 </blockquote>
@@ -87,12 +87,12 @@
 </li>
 </ul>
 <h3 id="8-插入图片-图片alt-图片路径）"><a href="#8-插入图片-图片alt-图片路径）" class="headerlink" title="8. 插入图片:![图片alt](图片路径）"></a>8. 插入图片:<code>![图片alt](图片路径）</code></h3><ul>
-<li>示例：<img src="http://q6fve88lp.bkt.clouddn.com/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%883.46.00.png" alt="嘻嘻嘻"><blockquote>
+<li>示例：<code>![嘻嘻嘻](http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%884.29.19.png)</code><blockquote>
 <p>实际效果如下 </p>
 </blockquote>
 </li>
 </ul>
-<p><img src="http://q6fve88lp.bkt.clouddn.com/lesia-and-serhii-artymovych-CHgWwvFsEDk-unsplash.jpg?imageView/2/w/100/q/100" alt="嘻嘻嘻"></p>
+<p><img src="http://http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%884.29.19.png?imageView/2/w/100/q/100" alt="嘻嘻嘻"></p>
 <blockquote>
 <p><strong>图片alt为图片下方的文字，即为对图片的解释</strong><br><strong>如果是在博客中插入图片那么关于关于图片的路径，有两种选择，一是存放到本地，二位网上图床（推荐免费的的七牛云的对象存储）</strong><br><strong>网上图床没什么好说的，七牛云有个复制外链的操作，点击粘贴即可。存放到本地的话，那就是把你本地路径一步一步写上去即可，就是别删了。</strong>  </p>
 </blockquote>
