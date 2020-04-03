@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-03T08:29:29.368Z</updated>
+  <updated>2020-04-03T08:32:13.484Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给终端开代理，使终端起飞！（成功测试方法）</title>
+    <link href="http://yoursite.com/2020/04/03/%E7%BB%99%E7%BB%88%E7%AB%AF%E5%BC%80%E4%BB%A3%E7%90%86%EF%BC%8C%E4%BD%BF%E7%BB%88%E7%AB%AF%E8%B5%B7%E9%A3%9E%EF%BC%81%EF%BC%88%E6%88%90%E5%8A%9F%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/04/03/%E7%BB%99%E7%BB%88%E7%AB%AF%E5%BC%80%E4%BB%A3%E7%90%86%EF%BC%8C%E4%BD%BF%E7%BB%88%E7%AB%AF%E8%B5%B7%E9%A3%9E%EF%BC%81%EF%BC%88%E6%88%90%E5%8A%9F%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95%EF%BC%89/</id>
+    <published>2020-04-02T20:30:10.000Z</published>
+    <updated>2020-04-03T08:32:13.484Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://img.l8higher.xyz/design-desk-display-eyewear-313690.jpg&quot; alt=&quot;封面&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="终端" scheme="http://yoursite.com/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+      <category term="代理" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%90%86/"/>
+    
+      <category term="terminal" scheme="http://yoursite.com/tags/terminal/"/>
+    
+  </entry>
   
   <entry>
     <title>The evolution of  myself music aesthetics</title>
@@ -59,31 +84,6 @@
     
     
       <category term="我" scheme="http://yoursite.com/tags/%E6%88%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>给终端开代理，使终端起飞！（成功测试方法）</title>
-    <link href="http://yoursite.com/2020/03/24/%E7%BB%99%E7%BB%88%E7%AB%AF%E5%BC%80%E4%BB%A3%E7%90%86%EF%BC%8C%E4%BD%BF%E7%BB%88%E7%AB%AF%E8%B5%B7%E9%A3%9E%EF%BC%81%EF%BC%88%E6%88%90%E5%8A%9F%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95%EF%BC%89/"/>
-    <id>http://yoursite.com/2020/03/24/%E7%BB%99%E7%BB%88%E7%AB%AF%E5%BC%80%E4%BB%A3%E7%90%86%EF%BC%8C%E4%BD%BF%E7%BB%88%E7%AB%AF%E8%B5%B7%E9%A3%9E%EF%BC%81%EF%BC%88%E6%88%90%E5%8A%9F%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95%EF%BC%89/</id>
-    <published>2020-03-24T01:50:10.000Z</published>
-    <updated>2020-04-03T08:29:41.185Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://img.l8higher.xyz/design-desk-display-eyewear-313690.jpg&quot; alt=&quot;封面&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="终端" scheme="http://yoursite.com/tags/%E7%BB%88%E7%AB%AF/"/>
-    
-      <category term="代理" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%90%86/"/>
-    
-      <category term="terminal" scheme="http://yoursite.com/tags/terminal/"/>
     
   </entry>
   
