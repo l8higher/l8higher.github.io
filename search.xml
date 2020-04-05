@@ -3,8 +3,8 @@
   <entry>
     <title>给终端开代理，使终端起飞！（成功测试方法）</title>
     <url>/2020/04/03/%E7%BB%99%E7%BB%88%E7%AB%AF%E5%BC%80%E4%BB%A3%E7%90%86%EF%BC%8C%E4%BD%BF%E7%BB%88%E7%AB%AF%E8%B5%B7%E9%A3%9E%EF%BC%81%EF%BC%88%E6%88%90%E5%8A%9F%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="悲伤o-╥﹏╥-o"><a href="#悲伤o-╥﹏╥-o" class="headerlink" title="悲伤o(╥﹏╥)o"></a>悲伤o(╥﹏╥)o</h2><p>我想对于一个命令行使用者来说，在终端用<code>brew</code>或者<code>npm</code>下载时，很多时候会遇到下载超时或者一直处于<code>updating homebrew</code>，那就非常令人恼火。老子下载的包也就十几M,你给老子更新就更新五分钟？？<br><img src="http://img.l8higher.xyz/9150e4e5gy1g30jja4ucfj206o05o0sp.jpg" alt="angry"><br><img src="http://img.l8higher.xyz/9150e4e5ly1fv8rn3wyosj204q04gjr8.jpg" alt="angry2"></p>
-<h2 id="嘻嘻嘻"><a href="#嘻嘻嘻" class="headerlink" title="嘻嘻嘻(#^.^#)"></a>嘻嘻嘻(#^.^#)</h2><p><img src="http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-04-03%20%E4%B8%8B%E5%8D%883.36.00.png" alt="xxxii"><br><img src="http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-04-03%20%E4%B8%8B%E5%8D%883.36.12.png" alt="xxiii"><br>想体验这种速度吗？？？？说实话，速度太快了，还没开始就结束了！<br><img src="http://img.l8higher.xyz/tx.jpg" alt="tx"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="悲伤o-╥﹏╥-o"><a href="#悲伤o-╥﹏╥-o" class="headerlink" title="悲伤o(╥﹏╥)o"></a>悲伤o(╥﹏╥)o</h2><p>我想对于一个命令行使用者来说，在终端用<code>brew</code>或者<code>npm</code>下载时，很多时候会遇到下载超时或者一直处于<code>updating homebrew</code>，那就非常令人恼火。老子下载的包也就十几M,你给老子更新就更新五分钟？？<br><img src="https://img.l8higher.xyz/9150e4e5gy1g30jja4ucfj206o05o0sp.jpg" alt="angry"><br><img src="https://img.l8higher.xyz/9150e4e5ly1fv8rn3wyosj204q04gjr8.jpg" alt="angry2"></p>
+<h2 id="嘻嘻嘻"><a href="#嘻嘻嘻" class="headerlink" title="嘻嘻嘻(#^.^#)"></a>嘻嘻嘻(#^.^#)</h2><p><img src="https://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-04-03%20%E4%B8%8B%E5%8D%883.36.00.png" alt="xxxii"><br><img src="https://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-04-03%20%E4%B8%8B%E5%8D%883.36.12.png" alt="xxiii"><br>想体验这种速度吗？？？？说实话，速度太快了，还没开始就结束了！<br><img src="https://img.l8higher.xyz/tx.jpg" alt="tx"></p>
 <h2 id="教你哦😯"><a href="#教你哦😯" class="headerlink" title="教你哦😯"></a>教你哦😯</h2><p>确定你的shell是<code>bash</code>还是<code>zsh</code>。<br>一般默认是<code>bash</code>，如果你有换过<code>zsh</code>，那你应该也记得。  </p>
 <h3 id="Case-1-bash"><a href="#Case-1-bash" class="headerlink" title="Case 1(bash)"></a>Case 1(bash)</h3><ol>
 <li>打开终端，输入<code>vi ~/.bashrc</code>，滑到最下方，添加如下</li>
@@ -41,12 +41,12 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近一直在弄毕业论文，Java的学习也没推进，不过也算还有点惊喜，比如收到了歪歪送我的书，蒋勋先生的《孤独六讲》。之前拜读过先生的《生活十讲》，至今依旧爱不释手。<br>开始正题个人对音乐是十分偏爱。简单对我上本科后偏好的音乐简单地划分一下吧，也算是个总结。（不专业，业余爱好而已）</p>
 <h2 id="第一阶段-K-POP"><a href="#第一阶段-K-POP" class="headerlink" title="第一阶段 K-POP"></a>第一阶段 K-POP</h2><p>绝大多数人都听过韩团的音乐，从以下几个角度简单讲讲。<br>音乐类型上就是Korea Pop吧。<br>K-Pop标准路线：<strong>精致妆容，强烈节奏，整齐编舞</strong>。这个<strong>视觉和听觉的结合路线</strong>的确在短时间内使得“韩国流行音乐”逐渐点燃亚洲流行音乐，但同时也无形中制约着其发展。<br>K-Pop不严格地说就是不折不扣的流水线产物。一个团体一年要出两三张ep加一张专辑不止，音乐周期太短。虽然现在很多编曲制作团队都开始国际化，但其演绎依旧停滞不前。唱法上少了太多变化，一个歌手在音乐之路的不断前进过程中，变换唱法是非常正常的，比如<strong>张学友，周杰伦，王力宏</strong>等等。还有我比较喜欢的artist，<strong>jay park</strong>在第二张正规专辑《Evolution》和第四张R&amp;B专辑《Everything You Wanted》中的唱法变化以及风格的转变是显而易见的。之后有空博客细谈。</p>
 
-    <div id="aplayer-VOZZbCKk" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-FJpZKxKb" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="28949648" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
     ></div>
 
 
-    <div id="aplayer-CblNWPNi" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-RjqHgQHp" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="0013a3Xq3SHZ7z" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"
     ></div>
 
@@ -113,7 +113,7 @@
 </blockquote>
 </li>
 </ul>
-<p><img src="http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%884.29.19.png" alt="标题演示"></p>
+<p><img src="https://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%884.29.19.png" alt="标题演示"></p>
 <h3 id="2-粗体、斜体、斜体加粗、加删除线"><a href="#2-粗体、斜体、斜体加粗、加删除线" class="headerlink" title="2. 粗体、斜体、斜体加粗、加删除线"></a>2. 粗体、斜体、斜体加粗、加删除线</h3><ul>
 <li>示例 <code>**粗体**、*斜体*、***斜体加粗***、~~加删除线~~</code><blockquote>
 <p>以下为实际效果  </p>
@@ -138,7 +138,7 @@
 <p><strong>需要注意：<code>.</code>后面有一个空格</strong>  </p>
 </blockquote>
 <h2 id="渐入佳境"><a href="#渐入佳境" class="headerlink" title="渐入佳境"></a>渐入佳境</h2><h3 id="7-代码高亮"><a href="#7-代码高亮" class="headerlink" title="7. 代码高亮"></a>7. 代码高亮</h3><ul>
-<li><p>示例：<img src="http://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%883.26.04.png" alt="代码高亮"></p>
+<li><p>示例：<img src="https://img.l8higher.xyz/%E6%88%AA%E5%B1%8F2020-03-16%20%E4%B8%8B%E5%8D%883.26.04.png" alt="代码高亮"></p>
 <blockquote>
 <p>实际效果如下<br>&emsp;<code>代码高亮</code></p>
 </blockquote>
@@ -147,12 +147,12 @@
 </li>
 </ul>
 <h3 id="8-插入图片-图片alt-图片路径）"><a href="#8-插入图片-图片alt-图片路径）" class="headerlink" title="8. 插入图片:![图片alt](图片路径）"></a>8. 插入图片:<code>![图片alt](图片路径）</code></h3><ul>
-<li>示例：<code>![嘻嘻嘻](http://img.l8higher.xyz/cowl.jpg)</code><blockquote>
+<li>示例：<code>![嘻嘻嘻](https://img.l8higher.xyz/cowl.jpg)</code><blockquote>
 <p>实际效果如下 </p>
 </blockquote>
 </li>
 </ul>
-<p><img src="http://img.l8higher.xyz/cowl.jpg" alt="嘻嘻嘻"></p>
+<p><img src="https://img.l8higher.xyz/cowl.jpg" alt="嘻嘻嘻"></p>
 <blockquote>
 <p><strong>图片alt为图片下方的文字，即为对图片的解释</strong><br><strong>如果是在博客中插入图片那么关于关于图片的路径，有两种选择，一是存放到本地，二位网上图床（推荐免费的的七牛云的对象存储）</strong><br><strong>网上图床没什么好说的，七牛云有个复制外链的操作，点击粘贴即可（前提你有一个已经备案的域名）。存放到本地的话，那就是把你本地路径一步一步写上去即可，就是别一不小心把图片删了。</strong>  </p>
 </blockquote>
